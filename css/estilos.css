@@ -3,8 +3,17 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: aquamarine;
+  background-image: linear-gradient(rgba(119, 115, 115, 0.5), rgba(138, 132, 132, 0.5)), url(https://scontent.ftuc4-1.fna.fbcdn.net/v/t51.82787-15/560646420_18115819999530132_2804487403770741619_n.webp?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Fx2mbyCyDowQ7kNvwFfB9Ar&_nc_oc=Adqrjbmf2X_uVQFFcVTr76np3rxIkRxHMRfcReSXmVSJ9CJ2mIgYSE5GlxAre5h-bWftGM72reIxjm4SkLqXu5vd&_nc_zt=23&_nc_ht=scontent.ftuc4-1.fna&_nc_gid=47cO0jnGYEfCr2DMtUImYQ&_nc_ss=7b289&oh=00_AQKYOs6nTuzr2B9GO1S3kg0TMAsfqLU3liUit-Hz-gHpCQ&oe=6AB1F093);
+  background-repeat: no-repeat;
+  /* Evita que la foto se repita en mosaico */
+  background-size: cover;
+  /* Hace que la foto cubra toda la pantalla adaptándose */
+  background-position: center;
+  /* Centra la foto en la pantalla */
+  background-attachment: fixed;
+  /* Opcional: la foto se queda fija al hacer scroll */
 }
+
 
 .pagina-inicio {
   justify-content: center;
