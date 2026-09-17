@@ -57,6 +57,20 @@ header {
   text-align: center;
 }
 
+/* Pantallas de hasta 768px (tablets y celulares): 2 columnas */
+@media (max-width: 768px) {
+  .grid-botones {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Pantallas de hasta 480px (celulares chicos): 1 sola columna */
+@media (max-width: 480px) {
+  .grid-botones {
+    grid-template-columns: 1fr;
+  }
+}
+
 footer {
   width: 100%;
   background-color: aliceblue;
