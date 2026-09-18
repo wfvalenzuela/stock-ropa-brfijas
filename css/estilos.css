@@ -27,11 +27,28 @@ body {
   background-color: bisque;
 }
 
-header {
+/*header {
   width: 100%;
   text-align: center;
   padding-top: 30px;
+}*/
+
+header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* el punto de referencia para el botón */
+  align-items: center;
+  padding-top: 30px;
+  /* padding lo ajustás vos */
 }
+
+header .btn {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
 
 .contenedor-principal {
   flex: 1;
