@@ -94,6 +94,7 @@ footer {
   padding: 20px;
 }
 
+/*boton descarga responsive*/
 footer .btn {
   position: fixed;
   top: 30px;
@@ -152,4 +153,12 @@ footer .btn {
 
 .color-titulo {
   color: rgb(255, 255, 255);
+}
+
+/* responsive el fondo de pantalla*/
+@media (max-width: 768px) {
+  body {
+    background-image: linear-gradient(rgba(119, 115, 115, 0.5), rgba(138, 132, 132, 0.5)),
+      url(https://www.argentina.gob.ar/sites/default/files/whatsapp_image_2023-09-07_at_13.50.231.jpeg);
+  }
 }
