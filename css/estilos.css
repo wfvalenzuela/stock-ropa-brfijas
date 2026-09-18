@@ -43,12 +43,11 @@ header {
   /* padding lo ajustás vos */
 }
 
-header .btn {
+/*header .btn {
   position: absolute;
   top: 30px;
   right: 20px;
-}
-
+} reemplazado en el footer*/
 
 .contenedor-principal {
   flex: 1;
@@ -93,6 +92,19 @@ footer {
   background-color: aliceblue;
   text-align: center;
   padding: 20px;
+}
+
+footer .btn {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  footer .btn {
+    position: static;
+    margin-top: 10px;
+  }
 }
 
 .mi-carrusel {
