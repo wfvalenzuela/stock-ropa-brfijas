@@ -149,6 +149,7 @@ footer .btn {
 .btn-primary:hover {
   background-color: rgb(243, 194, 53);
   border-color: rgb(243, 194, 53);
+  color: black;
 }
 
 .color-titulo {
