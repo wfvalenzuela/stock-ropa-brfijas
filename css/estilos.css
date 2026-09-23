@@ -163,3 +163,8 @@ footer .btn {
       url(https://www.argentina.gob.ar/sites/default/files/whatsapp_image_2023-09-07_at_13.50.231.jpeg);
   }
 }
+
+.grid-botones .btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgb(52, 69, 137);
+}
