@@ -142,13 +142,15 @@ footer .btn {
 }
 
 .btn-primary {
-  background-color: rgb(108, 150, 56);
-  border-color: rgb(108, 150, 56);
+  background-color: rgb(243, 194, 53);
+  border-color: rgb(243, 194, 53);
+
+
 }
 
 .btn-primary:hover {
-  background-color: rgb(243, 194, 53);
-  border-color: rgb(243, 194, 53);
+  background-color: rgb(108, 150, 56);
+  border-color: rgb(108, 150, 56);
   color: black;
 }
 
